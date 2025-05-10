@@ -1,0 +1,12 @@
+{
+  "name": "projetoluna",
+  "version": "1.0.0",
+  "description": "Backend do projeto **Luna**, um sistema de suporte emergencial para mulheres. Desenvolvido com **Node.js**, **Express** e **MongoDB**, estruturado para fácil integração com aplicativos móveis em Flutter ou React Native.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
