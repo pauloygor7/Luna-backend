@@ -13,6 +13,10 @@ const alertSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
   },
+  contact: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Contact",
+  },
 });
 
 module.exports = mongoose.model("Alerta", alertSchema);
