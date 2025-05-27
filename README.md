@@ -143,12 +143,19 @@ luna-backend/
 
 ### PATCH `/contacts/:id/favorite`
 
-**Descrição:** Alterna o status de favorito do contato.
+**Descrição:** Alterna o status de favorito (`true` ou `false`) do contato especificado pelo ID.  
+**Header:** `Authorization: Bearer JWT_TOKEN`
 
 **Retorno:**
 ```json
 {
   "message": "Contato marcado como favorito"
+}
+
+ou
+
+{
+  "message": "Contato removido dos favoritos!"
 }
 ```
 
