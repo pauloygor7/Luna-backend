@@ -151,9 +151,10 @@ luna-backend/
 {
   "message": "Contato marcado como favorito"
 }
-
+```
 ou
 
+```json
 {
   "message": "Contato removido dos favoritos!"
 }
